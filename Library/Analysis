@@ -1,0 +1,164 @@
+Design:
+- Materializ Library -> http://materializecss.com/
+- Jquery
+- Fonts:
+-- <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+-- <link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
+-- <link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> (english)
+- Colors:
+-- Stormy #494e68	
+-- Cloud #98878f
+-- Sunset #985e6d
+-- Evening #192231
+- Use Comment
+- Use Sass
+- Make It Pro
+- Make It Swift
+- Make It Responsive
+- Draw It
+
+Programming:
+- Php
+- Mysql
+- Database:
+-- Books:
+--- Id -> Auto Key
+--- Name -> Varchar 255 Unique
+--- nameOfAuthor -> Varchar 255
+--- idOfBook -> Int 11
+--- Type -> Int 11
+--- informationAboutBook -> Varchar 255
+--- pathOfBook -> Varchar 255
+--- readBook -> Varchar 255
+--- imageOfBook -> Varchar 255
+--- uploadedBy -> Varchar 255
+--- Readed -> Int 11
+--- Likes -> Int 11
+-- Types:
+--- Id -> Auto Key
+--- idOfType -> Int 11
+--- Type -> Varchar 255
+-- typesOfTypes:
+--- Id -> Auto Key
+--- idOfParentType -> Int 11
+--- idOfType -> Int 11
+--- Type -> Varchar 255
+-- Authors:
+--- Id -> Auto Key
+--- Name -> Varchar 255 Unique
+--- Facebook -> Varchar 255 Unique
+--- Twitter -> Varchar 255 Unique
+--- Google -> Varchar 255 Unique
+--- Email -> Varchar 255 Unique
+--- imageOfAuthor -> Varchar 255
+--- aboutHim -> Varchar 255
+-- Admin:
+--- Id -> Auto Key
+--- Name -> Varchar 255 Unique
+--- Password -> Varchar 255
+--- Email -> Varchar 255 Unique
+--- imageOfAdmin -> Varchar 255
+--- Permissions -> Int 11
+-- Group:
+--- Id -> Auto Key
+--- Name -> Varchar 255 Unique
+--- Password -> Varchar 255 Unique
+--- Email -> Varchar 255 Unique
+--- imageOfUser -> Varchar 255
+--- Permissions -> Int 11
+-- Comments:
+--- Id -> Auto Key
+--- idOfBook -> Int 11
+--- idOfUser -> int 11
+--- Comment -> Varchar 255
+-- Likes:
+--- Id -> Auto Key
+--- idOfBook -> Int 11
+--- idOfLike -> Int 11
+---- 1 -> Means I Like It
+---- 2 -> Means I Hate It
+-- Readed:
+--- Id -> Auto Key
+--- idOfBook -> Int 11
+--- Readed -> Int 11
+-- sortByWeek:
+--- Id -> Auto Key
+--- idOfBook -> Int 11
+--- h-W-Readed -> Int 11
+--- h-W-Liked -> Int 11
+-- sortByMonth:
+--- Id -> Auto Key
+--- idOfBook -> Int 11
+--- h-M-Readed -> Int 11
+--- h-M-Liked -> Int 11
+-- sortByYeer:
+--- Id -> Auto Key
+--- idOfBook -> Int 11
+--- h-Y-Readed -> Int 11
+--- h-Y-Liked -> Int 11
+-- SortsBy:
+--- Id -> Auto Key
+--- sortByEnglish -> Varchar 255
+--- sortByArabic -> Varchar 255
+--- sortByRoutes -> Varchar 255
+- Mvc:
+-- Laravel
+- Use Comments
+- Make It Swift
+- Write Must Be:
+-- Vars -> If It Two Words Or More -> $smallCapital
+	-> If It One Word -> $Capital
+-- Functions -> If It Two Words Or More -> smallCapital()
+	     -> If It One Word -> Capital()
+-- Names Of Functions Must Be Like His Job -> Function To Upload Image
+					   -> uploadImage()
+-- Names Of Vars Must Be Like His Job -> Vars For App Singleton Array For Paths
+				      -> $pathsArray
+-- Namse That Didn't Be Vars Or Functions Must His Name Be Like His Job And Small
+	-> css,js,images ....
+-- Names Of Tables In Database Muse Be Like His Job And
+	-> If It Two Words Or More -> smallCapital
+	-> If It One Word -> Capital
+-- Classes Name In Html Must Be
+	-> If It Two Words Or More -> smallCapital
+	-> If It One Word -> Capital
+	-> Between Words We Will Put _
+	-> Must Be There Its Html Element In Last
+- Make It Able To Develop In The Future
+
+Admin
+- Settings -. That Controlls All The Website
+- Dashboard -> That Shown All About Website
+- Logs
+- Users % Groups -> To Add User To Group Or Opposite And Change The Permissions
+- Simble Editor -> To Editor Website
+
+What Will Have This Website ?
+- Books
+- Authors
+- Images Of Books
+- Ghosts
+- Users & Authors To Upload Books Admin Controlles Them
+- Sorting Books And Sorting Of Sorting Books By:
+-- Date -> Day | Week | Month | Year 
+-- Most Read
+-- Most Like
+-- Most Read For This Week | Month
+-- Most Like For This Week | Month
+-- Sorting By The Type Of Book
+-- A To Z For Books
+-- A To Z For Authors
+- Information About Books And The Authors
+- Download And Read The Book Online
+
+How to Upload Books ?
+- Must We Have The Authors Agree	
+
+Permissions
+- 1 -> It's Mean Full Admin
+- 2 -> It's Mean That Can Look At Logs & Dashboard & Add User To Group Or Opposite & Logs 
+       & Upload Books And Add Comments
+- 3 -> It's Mean That Can Upload Books And Add Comments
+- 4 -> It's Mean That Can Add Comments
+

@@ -1,0 +1,80 @@
+/* Start Books */
+
+.books-Section{
+	.book-Item-Div{
+		display: block;
+		transition: all 0.5s ease;
+		&:hover{
+			transform: scale(1.05);
+		}
+		.card-action{
+			a:not(.btn):not(.btn-large):not(.btn-floating){
+				color: #212121;
+				&:hover{
+					color: #818181;
+				}
+			}
+		}
+		.card-reveal{
+			p{
+				font-size: 20px;
+			}
+		}
+		.watches-Likes-Dislikes-Div{
+			.watches-Icon-Div{
+				transition: all 0.5s ease;
+				i,p{
+					display: block;
+					text-align: center;
+				}
+				p{
+					margin-top: 0;
+				}
+				&:hover{
+					color: #818181;
+				}
+			}
+			.likes-Div,.dislikes-Div{
+				display: inline-block;
+				width: 49%;
+				i,p{
+					display: block;
+					text-align: center;
+				}
+				i{
+					margin-top: 20px;
+				}
+				p{
+					margin-top: 5px;
+				}
+			}
+			.likes-Div{
+				background-color: rgba(76,175,80,0.5);
+				transition: all 0.5s ease;
+				&:hover{
+					background-color: white;
+					color: #4CAF50;
+				}
+			}
+			.dislikes-Div{
+				background-color: rgba(244,67,54,0.5);
+				transition: all 0.5s ease;
+				&:hover{
+					background-color: white;
+					color: #F44336;
+				}
+			}
+			.Biggest{
+				i{
+					font-size: 28px;
+				}
+				p{
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+/* End Books */
+

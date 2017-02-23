@@ -1,0 +1,51 @@
+/* Start Books */
+.books-Section .book-Item-Div {
+  display: block;
+  transition: all 0.5s ease; }
+  .books-Section .book-Item-Div:hover {
+    transform: scale(1.05); }
+  .books-Section .book-Item-Div .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #212121; }
+    .books-Section .book-Item-Div .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+      color: #818181; }
+  .books-Section .book-Item-Div .card-reveal p {
+    font-size: 20px; }
+  .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .watches-Icon-Div {
+    transition: all 0.5s ease; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .watches-Icon-Div i, .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .watches-Icon-Div p {
+      display: block;
+      text-align: center; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .watches-Icon-Div p {
+      margin-top: 0; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .watches-Icon-Div:hover {
+      color: #818181; }
+  .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .likes-Div, .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .dislikes-Div {
+    display: inline-block;
+    width: 49%; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .likes-Div i, .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .likes-Div p, .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .dislikes-Div i, .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .dislikes-Div p {
+      display: block;
+      text-align: center; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .likes-Div i, .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .dislikes-Div i {
+      margin-top: 20px; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .likes-Div p, .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .dislikes-Div p {
+      margin-top: 5px; }
+  .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .likes-Div {
+    background-color: rgba(76, 175, 80, 0.5);
+    transition: all 0.5s ease; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .likes-Div:hover {
+      background-color: white;
+      color: #4CAF50; }
+  .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .dislikes-Div {
+    background-color: rgba(244, 67, 54, 0.5);
+    transition: all 0.5s ease; }
+    .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .dislikes-Div:hover {
+      background-color: white;
+      color: #F44336; }
+  .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .Biggest i {
+    font-size: 28px; }
+  .books-Section .book-Item-Div .watches-Likes-Dislikes-Div .Biggest p {
+    font-size: 18px; }
+
+/* End Books */
+
+/*# sourceMappingURL=Home.css.map */

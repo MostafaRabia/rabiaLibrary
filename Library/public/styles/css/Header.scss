@@ -1,0 +1,107 @@
+/* Start Defaults In Page */
+
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../fonts/flat-font/JF-Flat-regular.eot');
+    src: url('../fonts/flat-font/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/flat-font/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+    url('../fonts/flat-font/JF-Flat-regular.woff') format('woff'),
+    url('../fonts/flat-font/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  direction: rtl;
+  font-family: "JF Flat Regular";
+}
+
+.hidden-Scroll{
+    overflow: hidden;
+}
+
+.row .col{
+    float: right;
+}
+
+#sidenav-overlay{
+    z-index: 996;
+}
+
+/* End Defaults In Page */
+
+/* Start Loader Section */
+
+.loader-Section{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 999999999;
+    position: fixed;
+    img{
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 40vh;
+    }
+}
+
+/* End Loader Section */
+
+/* Start Section Black */
+
+.black-Section{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(1,1,1,0.5);
+}
+
+/* End Section Black */
+
+/* Start Types */
+
+.side-nav{
+    direction: ltr;
+    text-align: right;
+    input,label{
+        direction: rtl;
+    }
+    li .home-Page{
+        background-color: rgba(0,0,0,0);
+    }
+    input[type=text].validate+label{
+        width: 96%;
+    }
+    .select-wrapper{
+        span.caret{
+            left: 0;
+            right: auto;
+        }
+    }
+    .select-wrapper+label{
+        font-size: 0.9rem;
+        right: 0;
+    }
+    .dropdown-content{
+        direction: ltr;
+        li{
+            text-align: right;
+            direction: rtl;
+        }
+    }
+}
+
+.show-Types{
+    transform: rotate(180deg);
+}
+
+.drag-Arrow{
+    position: fixed;
+    top: 50%;
+    right: -12px;
+    font-size: 28px;
+    color: rgba(255,255,255,0.5);
+}
+
+/* End Types */

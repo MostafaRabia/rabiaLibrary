@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,wBAAwB;AAExB,SAAS;EACR,WAAW,EAAE,KAAK;;AAGnB,sBAAsB",
+"sources": ["typesOfTypes.scss"],
+"names": [],
+"file": "typesOfTypes.css"
+}
